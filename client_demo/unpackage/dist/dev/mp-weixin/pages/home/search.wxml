@@ -1,0 +1,1 @@
+<view class="search"><view class="top"><view class="title">搜索结果</view></view><view class="list"><block wx:for="{{list}}" wx:for-item="l" wx:for-index="__i0__" wx:key="g_id"><view class="card"><view class="name">{{l.g_name}}</view><view class="content">{{l.g_content}}</view></view></block></view></view>
